@@ -97,7 +97,10 @@ class Point(object):
         else:
             return point1
 
-    def
+    def halfway_to(self, Point):
+        x = (self.x + Point.x)/2
+        y = (self.y + Point.y)/2
+        return 'Point ({},{})'.format(x, y)
 
 
 
